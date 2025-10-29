@@ -1,0 +1,122 @@
+[
+  {
+    "id": "PROP001",
+    "type": "Apartamento",
+    "title": "Apartamento Boa Vista - 3 Quartos",
+    "location": "Boa Vista, Recife",
+    "beds": 3,
+    "baths": 2,
+    "area": 120,
+    "price": 450000,
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "status": "Venda"
+  },
+  {
+    "id": "PROP002",
+    "type": "Casa",
+    "title": "Casa Madalena - 4 Quartos",
+    "location": "Madalena, Recife",
+    "beds": 4,
+    "baths": 3,
+    "area": 250,
+    "price": 850000,
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "status": "Venda"
+  },
+  {
+    "id": "PROP003",
+    "type": "Apartamento",
+    "title": "Apto Pina - 2 Quartos com Vista para Mar",
+    "location": "Pina, Recife",
+    "beds": 2,
+    "baths": 1,
+    "area": 85,
+    "price": 2500,
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "status": "Aluguel"
+  },
+  {
+    "id": "PROP004",
+    "type": "Comercial",
+    "title": "Loja Recife Antigo - Ponto Comercial",
+    "location": "Recife Antigo",
+    "beds": 0,
+    "baths": 1,
+    "area": 80,
+    "price": 350000,
+    "image": "https://images.unsplash.com/photo-1485348616965-15c926318fbb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1075",
+    "status": "Venda"
+  },
+  {
+    "id": "PROP005",
+    "type": "Apartamento",
+    "title": "Apto Ipsep - 3 Quartos",
+    "location": "Ipsep, Recife",
+    "beds": 3,
+    "baths": 2,
+    "area": 110,
+    "price": 1800,
+    "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+    "status": "Aluguel"
+  },
+  {
+    "id": "PROP006",
+    "type": "Casa",
+    "title": "Casa Parnamirim - 3 Quartos com Piscina",
+    "location": "Parnamirim, Recife",
+    "beds": 3,
+    "baths": 2,
+    "area": 200,
+    "price": 650000,
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    "status": "Venda"
+  },
+  {
+    "id": "PROP007",
+    "type": "Comercial",
+    "title": "Sala Comercial - Centro",
+    "location": "Centro, Recife",
+    "beds": 0,
+    "baths": 1,
+    "area": 60,
+    "price": 3000,
+    "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "status": "Aluguel"
+  },
+  {
+    "id": "PROP008",
+    "type": "Apartamento",
+    "title": "Cobertura Boa Viagem - Penthouse",
+    "location": "Boa Viagem, Recife",
+    "beds": 4,
+    "baths": 3,
+    "area": 300,
+    "price": 1500000,
+    "image": "https://images.unsplash.com/photo-1686056040370-b5e5c06c4273?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1037",
+    "status": "Venda"
+  },
+  {
+    "id": "PROP009",
+    "type": "Apartamento",
+    "title": "Studio Recife Antigo - Kitnet",
+    "location": "Recife Antigo",
+    "beds": 1,
+    "baths": 1,
+    "area": 40,
+    "price": 1200,
+    "image": "https://plus.unsplash.com/premium_photo-1676321046262-4978a752fb15?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471",
+    "status": "Aluguel"
+  },
+  {
+    "id": "PROP010",
+    "type": "Casa",
+    "title": "Casa Encruzilhada - 5 Quartos",
+    "location": "Encruzilhada, Recife",
+    "beds": 5,
+    "baths": 3,
+    "area": 350,
+    "price": 1200000,
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+    "status": "Venda"
+  }
+]

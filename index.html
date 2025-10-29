@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>PropertiaBR - Imóveis em Recife | Compra, Venda e Aluguel</title>
+    <meta
+      name="description"
+      content="PropertiaBR é sua corretora de confiança em Recife. Encontre apartamentos, casas e imóveis comerciais com profissionais especializados, atendimento personalizado e negociações justas."
+    />
+    <meta
+      name="keywords"
+      content="imóveis, corretora, compra venda aluguel, Recife, apartamentos, casas, comercial, CRECI"
+    />
+    <meta name="author" content="PropertiaBR" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Portuguese" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.propertiabr.com.br" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.propertiabr.com.br" />
+    <meta
+      property="og:title"
+      content="PropertiaBR - Imóveis em Recife | Compra, Venda e Aluguel"
+    />
+    <meta
+      property="og:description"
+      content="Encontre o imóvel perfeito com profissionais experientes. Compra, venda e aluguel de residências e comerciais."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="PropertiaBR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.propertiabr.com.br" />
+    <meta
+      name="twitter:title"
+      content="PropertiaBR - Imóveis em Recife | Compra, Venda e Aluguel"
+    />
+    <meta
+      name="twitter:description"
+      content="Encontre o imóvel perfeito com profissionais experientes. Compra, venda e aluguel de residências e comerciais."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta name="twitter:creator" content="@propertiabr" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "PropertiaBR",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "description": "Corretora imobiliária oferecendo compra, venda e aluguel de imóveis residenciais e comerciais desde 2009",
+        "@id": "https://www.propertiabr.com.br",
+        "url": "https://www.propertiabr.com.br",
+        "telephone": "+55-81-3001-5555",
+        "priceRange": "$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Recife, 456",
+          "addressLocality": "Recife",
+          "addressRegion": "PE",
+          "postalCode": "50000-001",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -8.047562,
+          "longitude": -34.888314
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "13:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/propertiabr",
+          "https://www.instagram.com/propertiabr"
+        ]
+      }
+    </script>
+
+    <!-- Google Analytics 4 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        page_title: 'PropertiaBR - Home',
+        page_location: window.location.href,
+        page_path: window.location.pathname,
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" onclick="showPage('home')" class="nav-link active"
+              >🏠 Início</a
+            >
+          </li>
+          <li>
+            <a href="#about" onclick="showPage('about')" class="nav-link"
+              >ℹ️ Sobre</a
+            >
+          </li>
+          <li>
+            <a
+              href="#properties"
+              onclick="showPage('properties')"
+              class="nav-link"
+              >🏢 Imóveis</a
+            >
+          </li>
+          <li>
+            <a href="#contact" onclick="showPage('contact')" class="nav-link"
+              >📞 Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- PÁGINA HOME -->
+        <div id="home" class="page active">
+          <section class="page-card">
+            <h1>🏠 Bem-vindos à PropertiaBR</h1>
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Imóvel moderno com sala espaçosa"
+              class="page-image"
+            />
+            <div class="text-center">
+              <p>
+                💼 Encontre o imóvel perfeito com profissionais experientes.<br />
+                Compra, venda e aluguel de residências e comerciais em Recife e
+                região.
+              </p>
+              <a href="#properties" onclick="showPage('properties')" class="btn"
+                >🔍 Ver Imóveis</a
+              >
+            </div>
+          </section>
+
+          <div class="features-grid">
+            <div class="feature-card fade-in">
+              <div class="feature-icon">📍</div>
+              <h3>Localização Premium</h3>
+              <p>
+                Imóveis em bairros valorizados com excelente infraestrutura e
+                segurança.
+              </p>
+            </div>
+            <div class="feature-card fade-in">
+              <div class="feature-icon">👨‍💼</div>
+              <h3>Atendimento Especializado</h3>
+              <p>
+                Corretores experientes que entendem suas necessidades e buscam a
+                melhor solução.
+              </p>
+            </div>
+            <div class="feature-card fade-in">
+              <div class="feature-icon">💰</div>
+              <h3>Negociações Justas</h3>
+              <p>
+                Preços competitivos e negociações transparentes para melhor
+                resultado.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PÁGINA SOBRE -->
+        <div id="about" class="page">
+          <section class="page-card">
+            <h1>🏢 Sobre a PropertiaBR</h1>
+            <div class="about-content">
+              <div class="about-text">
+                <h2>Nossa História</h2>
+                <p>
+                  A PropertiaBR é uma corretora familiar com mais de 15 anos de
+                  experiência no mercado imobiliário de Recife. Começamos com o
+                  objetivo de conectar pessoas aos seus imóveis ideais com
+                  profissionalismo e transparência.
+                </p>
+                <p>
+                  Nossa missão é oferecer soluções imobiliárias completas, desde
+                  a compra do primeiro imóvel até investimentos maiores, sempre
+                  com atendimento personalizado e conhecimento profundo do
+                  mercado local.
+                </p>
+                <h2>Nossos Valores</h2>
+                <p>
+                  ✅ <strong>Transparência:</strong> Comunicação clara em todas
+                  as negociações<br />
+                  ✅ <strong>Experiência:</strong> Equipe especializada e
+                  atualizada<br />
+                  ✅ <strong>Confiança:</strong> Relacionamento duradouro com
+                  clientes<br />
+                  ✅ <strong>Resultado:</strong> Foco na sua satisfação e
+                  sucesso
+                </p>
+              </div>
+              <div>
+                <img
+                  src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Fachada da corretora PropertiaBR em Recife"
+                  class="page-image"
+                />
+              </div>
+            </div>
+          </section>
+
+          <div class="features-grid mt-2">
+            <div class="feature-card">
+              <div class="feature-icon">🎓</div>
+              <h3>Expertise</h3>
+              <p>
+                Profissionais certificados pelo CRECI com vasto conhecimento de
+                mercado.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📊</div>
+              <h3>Análise de Mercado</h3>
+              <p>
+                Acompanhamento constante de tendências para avaliar imóveis
+                corretamente.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🤝</div>
+              <h3>Parceria</h3>
+              <p>
+                Trabalhamos com instituições financeiras para facilitar
+                financiamentos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PÁGINA IMÓVEIS -->
+        <div id="properties" class="page">
+          <section class="page-card">
+            <h1>🏢 Portfólio de Imóveis</h1>
+            <div class="filter-section">
+              <select id="type-filter">
+                <option value="all">🏠 Todos os Tipos</option>
+              </select>
+            </div>
+            <div id="property-grid" class="property-grid">
+              <div class="loading">Carregando imóveis...</div>
+            </div>
+          </section>
+        </div>
+
+        <!-- PÁGINA CONTATO -->
+        <div id="contact" class="page">
+          <section class="page-card">
+            <h1>📞 Entre em Contato</h1>
+            <div class="contact-layout">
+              <div>
+                <h2>📝 Envie uma Mensagem</h2>
+                <form
+                  id="contact-form"
+                  action="https://formspree.io/f/SEU_ENDPOINT_AQUI"
+                  method="POST"
+                >
+                  <label for="name">Nome Completo:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Seu nome"
+                  />
+
+                  <label for="email">E-mail:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="_replyto"
+                    required
+                    placeholder="seu@email.com"
+                  />
+
+                  <label for="phone">Telefone:</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="(81) 99999-9999"
+                  />
+
+                  <label for="interest">Interesse:</label>
+                  <select id="interest" name="interest">
+                    <option>Compra</option>
+                    <option>Venda</option>
+                    <option>Aluguel</option>
+                    <option>Consultoria</option>
+                  </select>
+
+                  <label for="message">Mensagem:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    placeholder="Descreva sua solicitação..."
+                  ></textarea>
+
+                  <input type="hidden" name="_next" value="#contact" />
+                  <input type="hidden" name="_language" value="pt-BR" />
+                  <input type="text" name="_gotcha" style="display: none" />
+
+                  <button type="submit">📨 Enviar Mensagem</button>
+                </form>
+              </div>
+
+              <div>
+                <h2>📍 Nossa Localização</h2>
+                <div class="map-container">
+                  <p>
+                    <strong>📍 Endereço:</strong><br />
+                    Av. Recife, 456<br />
+                    Bairro Boa Vista<br />
+                    Recife - PE, 50000-001
+                  </p>
+
+                  <p><strong>📱 Telefone:</strong> (81) 3001-5555</p>
+                  <p><strong>📧 E-mail:</strong> contato@propertiabr.com.br</p>
+                  <p>
+                    <strong>🕐 Horário:</strong><br />
+                    Segunda a Sexta: 8h às 18h<br />
+                    Sábado: 8h às 13h
+                  </p>
+
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.2356698919584!2d-34.88831468572394!3d-8.047562582194478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196a7113f1cf%3A0x37d7e7d7e7d7e7d7!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1635959999999!5m2!1spt-BR!2sbr"
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 PropertiaBR - Sua Corretora de Confiança. Todos os direitos
+        reservados.
+      </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
